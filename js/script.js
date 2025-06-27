@@ -27,7 +27,7 @@ function iniciarJogo() {
     jogoAtivo = true;
     pontuacao = 0;
     spanPontuacao.textContent = pontuacao;
-    cobrinha = [{ x: 5, y: 5 }];
+    cobrinha = [{ x: 15, y: 15 }];
     direcao = "direita";
     gerarComida();
 
